@@ -31,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Cyber Security",
+  "Cyber Audit",
+  "Computer Forensic",
+  "Pentratio testing",
+  "Valunerabilty ",
+  "Micrsoft Certified",
 ];
 
 /**
@@ -45,12 +45,12 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  " I am Cyber Security ethustic student and learner having deep knowlwde in cyber audit & Digital forensic";
 
 const About = () => {
   return (
-    <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+    <section className="Software Engeenring" id="section A">
+      <img className="SE_A" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
@@ -60,7 +60,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>MUHAMMAD SHAHZAD</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
